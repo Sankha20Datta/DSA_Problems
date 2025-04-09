@@ -119,7 +119,7 @@ public class Question15 {
 //	                .filter(emp -> emp.salary > 5000)
 //	                .peek(emp -> System.out.println("After Filter: " + emp))
 //	                .collect(Collectors.toList());
-	        
+	         
 	      //  System.out.println("processedEmployees"+processedEmployees);
 	        
 	        double totalSalaryParallel = employees.parallelStream()
